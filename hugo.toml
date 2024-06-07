@@ -1,0 +1,85 @@
+baseURL = "https://example.com/"
+languageCode = "en"
+title = "Community insights for betting living"
+theme = "hugo-initio"
+
+[params]
+    email = "info@terrabyte.llc"
+    phone = "+1 505 933 4359"
+    address = "Albuquerque, NM"
+    year = 2017
+    banner = "images/banner-lg.png"
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+    author = "Terrabyte, LLC"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = true
+    showFooterFormWidget = true
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "articles"
+    url = "/post/"
+    weight = 5
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/nickname"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/nickname"
+    icon = "fab fa-instagram"
+    footer = true
+    sharethis = false
+    network = ""
+
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/nickname"
+    icon = "fab fa-linkedin"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+
+[[params.social]]
+	title = "github"
+	url = "https://github.com/terrabytellc"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+
+[[params.social]]
+	title = "email"
+	url = "mailto:info@terrabyte.llc"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
