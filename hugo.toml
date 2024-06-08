@@ -5,7 +5,7 @@ theme = "hugo-initio"
 
 [params]
     email = "info@terrabyte.llc"
-    phone = ""
+    phone = "+1 505 633 4351"
     address = "Albuquerque, NM"
     year = 2017
     banner = "images/banner-sm.jpg"
